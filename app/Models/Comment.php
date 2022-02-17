@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Comment extends Model
 {
     use HasFactory;
+    const ALIAS = 'comment';
     protected $guarded=[];
     public function commentable()
     {

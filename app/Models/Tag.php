@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Tag extends Model
 {
     use HasFactory;
+    const ALIAS = 'tag';
     protected $guarded = [];
     public function posts()
     {

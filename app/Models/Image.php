@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Image extends Model
 {
     use HasFactory;
+    const ALIAS = 'image';
     protected $guarded = [];
     public function imageable()
     {
